@@ -1,13 +1,15 @@
-import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import Categories from './Categories';
+import Products from './Products';
 
-const Home = () => {
+const Home = () => {  
     return (
         <div>
             <Helmet>
                 <title>Home | InfiniteMart</title>
             </Helmet>
-            this is home
+            <Categories/>
+            <Products></Products>
         </div>
     );
 };
